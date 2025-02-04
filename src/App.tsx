@@ -6,6 +6,7 @@ import AboutUs from "./Containers/AboutUs/AboutUs.tsx";
 import Contacts from "./Containers/Contacts/Contacts.tsx";
 import Portfolio from "./Containers/Portfolio/Portfolio.tsx";
 import UserManagementApp from "./Containers/UserManagementApp/UserManagementApp.tsx";
+import UiWork from "./Containers/UIWork/UIWork.tsx";
 
 const App = () => (
     <>
@@ -27,6 +28,7 @@ const App = () => (
             />
             <Route path="/portfolio" element={(<Portfolio/>)}>
                 <Route path='user-app' element={(<UserManagementApp/>)}/>
+                <Route path='UI' element={(<UiWork/>)}/>
             </Route>
             <Route path="*" element={(<h1>Page Not Found!!</h1>)}/>
         </Routes>
