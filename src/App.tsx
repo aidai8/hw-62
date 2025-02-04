@@ -5,6 +5,7 @@ import Home from "./Containers/Home/Home.tsx";
 import AboutUs from "./Containers/AboutUs/AboutUs.tsx";
 import Contacts from "./Containers/Contacts/Contacts.tsx";
 import Portfolio from "./Containers/Portfolio/Portfolio.tsx";
+import UserManagementApp from "./Containers/UserManagementApp/UserManagementApp.tsx";
 
 const App = () => (
     <>
@@ -24,11 +25,10 @@ const App = () => (
                 path="/contacts"
                 element={(<Contacts/>)}
             />
-            <Route
-                path="/portfolio"
-                element={(<Portfolio/>)}
-            />
-            <Route path="*" element={(<h1>Not page found</h1>)}/>
+            <Route path="/portfolio" element={(<Portfolio/>)}>
+                <Route path='user-app' element={(<UserManagementApp/>)}/>
+            </Route>
+            <Route path="*" element={(<h1>Page Not Found!!</h1>)}/>
         </Routes>
     </>
 );

@@ -11,7 +11,7 @@ const AboutUs = () => {
                 But if you like to watch gore and disgusting stuff like "Serbian Film" please leave this page because you won't find anything that pleases your twisted taste and please seek professional help ;)
             </p>
 
-            <p className="fs-5 fw-bold text-secondary">I'm also an aspiring front-end developer, so please check out my latest work on the Portfolio page  ^~^</p>
+            <p className="fs-5 fw-bold text-secondary">I'm also an aspiring front-end developer, so please check out some of my works on the Portfolio page  ^~^</p>
         </div>
     );
 };

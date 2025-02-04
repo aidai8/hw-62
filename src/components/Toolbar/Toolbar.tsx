@@ -6,18 +6,18 @@ const Toolbar = () => {
             <div className="container">
                 <NavLink to='/' className="navbar-brand text-black fw-bold">Horror Movies of 2025</NavLink>
                 <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav ms-auto text-black">
                         <li className="nav-item">
-                            <NavLink to='/' className="nav-link text-black">Home</NavLink>
+                            <NavLink to='/' className="nav-link">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/about-us' className="nav-link text-black">About us</NavLink>
+                            <NavLink to='/about-us' className="nav-link">About us</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/contacts' className="nav-link text-black">Contacts</NavLink>
+                            <NavLink to='/contacts' className="nav-link">Contacts</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/portfolio' className="nav-link text-black">Portfolio</NavLink>
+                            <NavLink to='/portfolio' className="nav-link">Portfolio</NavLink>
                         </li>
                     </ul>
                 </div>
